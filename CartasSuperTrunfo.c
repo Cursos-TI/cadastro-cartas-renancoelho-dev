@@ -63,6 +63,8 @@ int main() {
     printf("Digite o numero de pontos turisticos da Carta 2: ");
     scanf("%d", &pontosTuristicos2);
 
+        // Exibição dos dados da Carta 1
+    // Mostra na tela todas as informações cadastradas para a primeira carta.
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Codigo: %s\n", codigo1);
@@ -72,6 +74,9 @@ int main() {
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
 
+
+        // Exibição dos dados da Carta 2
+    // Mostra na tela todas as informações cadastradas para a segunda carta.
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Codigo: %s\n", codigo2);
@@ -80,6 +85,7 @@ int main() {
     printf("Area: %.2f km2\n", area2);
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
+   
 
     return 0;
 }
